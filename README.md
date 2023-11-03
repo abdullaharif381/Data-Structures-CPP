@@ -6,7 +6,7 @@ This is a simple implementation of an AVL (Adelson-Velsky and Landis) tree in C+
 - [Introduction](#introduction)
 - [Usage](#usage)
 - [Functions](#functions)
-- [Sample Usage](#sample-usage)
+
 
 ## Introduction
 An AVL tree is a binary tree in which the height of the left and right subtrees of any node differ by at most one. It achieves this balance by performing rotations after insertions and deletions. This implementation provides basic operations such as insertion, removal, searching, and checking if the tree is AVL balanced.
