@@ -1,30 +1,26 @@
-# Balanced Binary Search Tree (AVL)
+# AVL Tree Implementation in C++
 
-This repository contains an implementation of a Balanced Binary Search Tree (AVL) in C++. It provides operations for inserting, removing, searching, and checking if the tree is AVL balanced. The code also includes functions to print the tree in different orders and find the minimum element.
+This is a simple implementation of an AVL (Adelson-Velsky and Landis) tree in C++. AVL trees are self-balancing binary search trees, which ensure that the tree remains approximately balanced after insertions and deletions.
 
 ## Table of Contents
-
-- [About](#about)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
+- [Introduction](#introduction)
 - [Usage](#usage)
-  - [Insertion](#insertion)
-  - [Search](#search)
-  - [Removal](#removal)
-  - [Additional Information](#additional-information)
-- [Contributing](#contributing)
-- [License](#license)
+- [Functions](#functions)
+- [Sample Usage](#sample-usage)
 
-## About
+## Introduction
+An AVL tree is a binary tree in which the height of the left and right subtrees of any node differ by at most one. It achieves this balance by performing rotations after insertions and deletions. This implementation provides basic operations such as insertion, removal, searching, and checking if the tree is AVL balanced.
 
-This AVL tree implementation is a self-balancing binary search tree. It ensures that the heights of the two child subtrees of any node differ by at most one, which helps maintain efficient search and retrieval times.
+## Usage
+To use this implementation in your C++ project, you can include the provided `AVL.h` and `Node.h` files in your source code. The `AVL` class provides various functions for manipulating the AVL tree, and the `Node` class represents individual nodes in the tree.
 
-## Getting Started
+## Functions
+Here's a brief overview of the functions provided by the AVL class:
 
-### Prerequisites
-
-To compile and run this code, you need:
-
-- A C++ compiler (e.g., g++)
-- CMake (for building)
+- `insert(T val)`: Insert a value into the AVL tree.
+- `remove(T val)`: Remove a value from the AVL tree.
+- `search(T val)`: Search for a value in the AVL tree.
+- `isAVL()`: Check if the tree is an AVL tree.
+- `findmin()`: Find the minimum value in the tree.
+- `print()`: Print the tree in inorder, preorder, and postorder.
+- `printAllPaths()`: Print all root-to-leaf paths in the tree.
