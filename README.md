@@ -7,3 +7,4 @@
 - Balanced Binary Search Trees (AVL Trees)
 - Heap
 - Hash Table
+- Graphs (directed and unirected)
